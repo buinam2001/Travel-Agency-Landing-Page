@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div class="wapper">
+    <div class="layout_header">
+        <div class="container">
+            <header class="header">
+                <div class="menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <img class="header_logo" src="./img/Logo.png" alt="logo_img">      
+                    <div class="header_input">
+                        <i class="fa-solid fa-magnifying-glass header_input--icon"></i>
+                        <input placeholder="Search for destinations..." type="text" />
+                     </div>
+                     <ul class="header_menu">
+                        <li class="header_menu--item">
+                            Home
+                        </li>
+                        <li class="header_menu--item">
+                            Destinations
+                        </li>
+                        <li class="header_menu--item">
+                            Pricing
+                        </li>
+                        <li class="header_menu--item">
+                            Reviews
+                        </li>
+                     </ul>
+                     <a href="#" class="header_menu--link">Contact</a>
+
+                     <div class="menu_nav">
+                        <div onclick="handleclose()" class="close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                         <ul class="header_reponsive">
+                             <li class="header_reponsive--menu">
+                                 Home
+                                </li>
+                                <li class="header_reponsive--menu">
+                                    Destinations
+                                </li>
+                                <li class="header_reponsive--menu">
+                                    Pricing
+                                </li>
+                                <li class="header_reponsive--menu">
+                                    Reviews
+                                </li>
+                            </ul>
+                            <div class="header_input--reponsive">
+                                <i class="fa-solid fa-magnifying-glass header_input--icon"></i>
+                                <input placeholder="Search for destinations..." type="text" />
+                             </div>
+                            <a href="#" class="header_link--reponsive">Contact</a>    
+                     </div>          
+            </header>
+            <div class="hero">
+                <div class="hero_img">
+                    <img src="./img/Images.png" alt="hero_img" />
+                </div>
+                <div class="hero_book">
+                    <h5 class="hero_book--name">Book Now</h5>
+                    <h3 class="hero_book--title">The smiling <img src="./img/image 724.png" alt="hero_icon"> agent for travel</h3>
+                    <p class="hero_book--text">
+                        Make your travel more enjoyable with us. 
+                        We are the best travel agency and we are providing the 
+                        best travel services for our clients.
+                    </p>
+                    <div class="hero_book--box">
+                        <a href="#" class="book_link">Plan a Trip</a>
+                        <div class="book_watch">
+                            <img class="book_watch--img" src="./img/Group 17513.png" alt="book_watch">
+                            <p class="book_watch--text">
+                                Watch our Story
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="destinations">
+            <div class="destinations_box">
+                <div class="destinations_content">
+                    <h3 class="destinations_content--title">Explore top destinations</h3>
+                    <p class="destinations_content--text">
+                        Explore your suitable and dream places around the world. 
+                        Here </br> you can find your right destination.
+                    </p>
+                </div>
+                <div class="destinations_icon">
+                    <div class="destinations_icon--next">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </div>
+                    <div class="destinations_icon--prev">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+
+            </div>
+            <div class="destinations_card">
+                <div class="destinations_card--item">
+                    <img src="./img/Image.png" alt="card_img">
+                    <div class="destinations_card--box">
+                        <p class="destinations_card--text">
+                            Konigssee, Schonau </br>
+                            Germany
+                        </p>
+                    </div>
+                </div>
+                <div class="destinations_card--item">
+                    <img src="./img/Card 2.png" alt="card_img">
+                    <div class="destinations_card--box">
+                        <p class="destinations_card--text">
+                            Konigssee, Schonau </br>
+                            Germany
+                        </p>
+                    </div>
+                </div>
+                <div class="destinations_card--item">
+                    <img src="./img/Card 3.png" alt="card_img">
+                    <div class="destinations_card--box">
+                        <p class="destinations_card--text">
+                            Konigssee, Schonau </br>
+                            Germany
+                        </p>
+                    </div>
+                </div>
+                <div class="destinations_card--item">
+                    <img src="./img/Card 4.png" alt="card_img">
+                    <div class="destinations_card--box">
+                        <p class="destinations_card--text">
+                            Konigssee, Schonau </br>
+                            Germany
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="layout_package">
+        <div class="container">
+            <div class="package">
+                <div class="package_content">
+                    <h3 class="package_title">
+                        Best trip package
+                    </h3>
+                    <p class="package_text">
+                        Explore your suitable and dream places around the world.
+                         Here you can find your right destination.
+                    </p>
+                </div>
+                <div class="package_card">
+                    <div class="package_card--item">
+                        <img class="card_item--img" src="./img/Image (1).png" alt="">
+                        <div class="package_card--box">
+                            <h5 class="package_card--title">
+                                Wasserwerk Freiberg, Germany
+                            </h5>
+                            <div class="package_card--star">
+                                <img src="./img/Star 6.png" alt="">
+                                <span class="card_count">4.3</span>
+                            </div>
+                            <div class="package_card--book">
+                                <p class="book_text">
+                                  from
+                                   <b>
+                                    $400
+                                   </b> 
+                                </p>
+                                <a href="#" class="book_btn">Book Now</a>
+                          </div>
+                      </div>
+                   </div>
+                    <div class="package_card--item">
+                        <img class="card_item--img" src="./img/Image (2).png" alt="">
+                        <div class="package_card--box">
+                            <h5 class="package_card--title">
+                                Wasserwerk Freiberg, Germany
+                            </h5>
+                            <div class="package_card--star">
+                                <img src="./img/Star 6.png" alt="">
+                                <span class="card_count">4.3</span>
+                            </div>
+                            <div class="package_card--book">
+                                <p class="book_text">
+                                     from
+                                    <b>$400</b> 
+                                </p>
+                                <a href="#" class="book_btn">Book Now</a>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="package_card--item">
+                        <img class="card_item--img" src="./img/Image (3).png" alt="">
+                        <div class="package_card--box">
+                            <h5 class="package_card--title">
+                                Wasserwerk Freiberg, Germany
+                            </h5>
+                            <div class="package_card--star">
+                                <img src="./img/Star 6.png" alt="">
+                                <span class="card_count">4.3</span>
+                            </div>
+                            <div class="package_card--book">
+                                <p class="book_text">
+                                    from 
+                                   <b>
+                                    $400
+                                   </b> 
+                                </p>
+                                <a href="#" class="book_btn">Book Now</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <button class="package_link">
+                    View All
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="gallery">
+            <div class="gallery_img">
+                <img src="./img/Images (1).png" alt="gallery_img">
+            </div>
+            <div class="gallery_box">
+                <h3 class="gallery_box--title">
+                    Our trip gallery that will inspire you
+                </h3>
+                <p class="gallery_box--text">
+                    See amazing moment of our trip. 
+                    Here you can find some beautiful 
+                    picture of travel that will inspire you a 
+                    lot to travel with us around the globe.
+                </p>
+                <button class="gallery_box--link">View All</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="layout_sletter">
+        <div class="container">
+            <div class="sletter">
+                <div class="sletter_content">
+                    <h3 class="sletter_title">
+                        Subscribe to get special prize
+                    </h3>
+                    <p class="sletter_text">
+                        Don’t wanna miss something? Subscribe right now and get </br> specail 
+                        promotion and monthly newsletter.
+                    </p>
+                </div>
+                <div class="sletter_from">
+                    <input class="sletter_input"  placeholder="Enter Your E-mail" type="text" />
+                    <button class="sletter_btn">Get started</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="layout_footer">
+        <div class="container">
+            <footer class="footer"> 
+                <div class="footer_top">
+                    <div class="footer_top--box">
+                        <img class="footer_top--img" src="./img/Logo (1).png" alt="footer_logo" />
+                        <p class="footer_top--text">
+                            Need to help for your dream trip? 
+                            trust us. With Walter, travel becomes
+                             a lot easier with us.
+                        </p>
+                        <ul class="footer_top--list">
+                            <li class="footer_top--item">
+                                <i class="fa-brands fa-twitter"></i>
+                            </li>
+                            <li class="footer_top--item">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </li>
+                            <li class="footer_top--item">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </li>
+                            <li class="footer_top--item">
+                                <i class="fa-brands fa-instagram"></i>
+                            </li> 
+                        </ul>
+                    </div>
+                    <div class="footer_name">
+                        <h3 class="footer_title">
+                            Company
+                        </h3>
+                        <ul class="footer_list">
+                            <li class="footer_item">
+                                About Us
+                            </li>
+                            <li class="footer_item">
+                                Features
+                            </li>
+                            <li class="footer_item">
+                                Our Pricing
+                            </li> 
+                            <li class="footer_item">
+                                Latest News
+                            </li> 
+                        </ul>
+                    </div>
+                    <div class="footer_name">
+                        <h3 class="footer_title">
+                            Support
+                        </h3>
+                        <ul class="footer_list">
+                            <li class="footer_item">
+                                Support
+                            </li>
+                            <li class="footer_item">
+                                FAQ’s
+                            </li>
+                            <li class="footer_item">
+                                Terms & Conditions
+                            </li>
+                            <li class="footer_item">
+                                Privacy Policy
+                            </li> 
+                            <li class="footer_item">
+                                Contact Us
+                            </li> 
+                        </ul>
+                    </div>
+                    <div class="footer_name">
+                        <h3 class="footer_title">
+                            Address
+                        </h3>
+                        <ul class="footer_list">
+                            <li class="footer_item">
+                                Location: 27 Division St, New York, NY 10002, USA
+                            </li>
+                            <li class="footer_item">
+                                Email: email@gmail.com
+                            </li>
+                            <li class="footer_item">
+                                Phone: + 000 1234 567 890
+                            </li> 
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_shape">
+                    Copyright ©2022 webdesign.gdn All rights reserved
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+    
+</body>
+<script src="./js/index.js"></script>
+
+</html>

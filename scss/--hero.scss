@@ -1,0 +1,60 @@
+.hero{
+    &_img{
+      max-width: 570px;
+      max-height: 600px;
+      & img{
+         width: 100%;
+         height: 100%;
+      }
+       
+    }
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 64px;
+    &_book{
+        width: 470px;
+        &--name{
+            font-weight: 600;
+            font-size: 18px;
+            color: #14B8A7;
+        }
+        &--title{
+            font-weight: 700;
+            font-size: 59px;
+            line-height: calc(72px/62px);
+            color: #05101F;
+           
+        }
+        &--text{
+            margin-top: 22px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height:calc(30px/18px);
+            color: #52575F;
+        }
+        &--box{
+            display: flex;
+            align-items: center;
+            margin-top: 38px;
+        }
+    }
+}
+
+.book_link{
+    padding: 17px 42px;
+    background-color: #3685FB;
+    border-radius: 32px;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-decoration: none   ;
+
+}
+
+.book_watch{
+    margin-left: 26px;
+    display: flex;
+    align-items: center;
+}
